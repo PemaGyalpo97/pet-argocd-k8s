@@ -15,5 +15,5 @@ spec:
         app: gyalpo-deploy
     spec:
       containers:
-      - image: gyalpo97/gyalpo:19
+      - image: gyalpo97/gyalpo:2
         name: gyalpo
