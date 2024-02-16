@@ -2,18 +2,18 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: pet-deploy
+    app: gyalpo-deploy
   name: gyalpo
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: pet-deploy
+      app: gyalpo-deploy
   template:
     metadata:
       labels:
-        app: pet-deploy
+        app: gyalpo-deploy
     spec:
       containers:
-      - image: cloudsihmar/sandeep:19
-        name: pet
+      - image: gyalpo97/gyalpo:19
+        name: gyalpo
